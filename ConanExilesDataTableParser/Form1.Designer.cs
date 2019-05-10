@@ -84,7 +84,7 @@
             this.formGroup.Controls.Add(this.formSourceText);
             this.formGroup.Location = new System.Drawing.Point(12, 12);
             this.formGroup.Name = "formGroup";
-            this.formGroup.Size = new System.Drawing.Size(1030, 624);
+            this.formGroup.Size = new System.Drawing.Size(1505, 624);
             this.formGroup.TabIndex = 0;
             this.formGroup.TabStop = false;
             this.formGroup.Enter += new System.EventHandler(this.FormGroup_Enter);
@@ -92,7 +92,7 @@
             // formButtonBegin
             // 
             this.formButtonBegin.Enabled = false;
-            this.formButtonBegin.Location = new System.Drawing.Point(660, 541);
+            this.formButtonBegin.Location = new System.Drawing.Point(1129, 539);
             this.formButtonBegin.Name = "formButtonBegin";
             this.formButtonBegin.Size = new System.Drawing.Size(364, 69);
             this.formButtonBegin.TabIndex = 9;
@@ -104,7 +104,7 @@
             // 
             this.formGroupChange.Controls.Add(this.formPanelChange);
             this.formGroupChange.Enabled = false;
-            this.formGroupChange.Location = new System.Drawing.Point(843, 32);
+            this.formGroupChange.Location = new System.Drawing.Point(1312, 30);
             this.formGroupChange.Name = "formGroupChange";
             this.formGroupChange.Size = new System.Drawing.Size(181, 486);
             this.formGroupChange.TabIndex = 8;
@@ -252,7 +252,7 @@
             // 
             this.formGroupSource.Controls.Add(this.formPanelSource);
             this.formGroupSource.Enabled = false;
-            this.formGroupSource.Location = new System.Drawing.Point(660, 32);
+            this.formGroupSource.Location = new System.Drawing.Point(1129, 30);
             this.formGroupSource.Name = "formGroupSource";
             this.formGroupSource.Size = new System.Drawing.Size(176, 486);
             this.formGroupSource.TabIndex = 4;
@@ -369,7 +369,7 @@
             // formLabelResult
             // 
             this.formLabelResult.AutoSize = true;
-            this.formLabelResult.Location = new System.Drawing.Point(337, 16);
+            this.formLabelResult.Location = new System.Drawing.Point(573, 16);
             this.formLabelResult.Name = "formLabelResult";
             this.formLabelResult.Size = new System.Drawing.Size(68, 13);
             this.formLabelResult.TabIndex = 3;
@@ -377,13 +377,13 @@
             // 
             // formResultText
             // 
-            this.formResultText.Location = new System.Drawing.Point(340, 32);
+            this.formResultText.Location = new System.Drawing.Point(576, 32);
             this.formResultText.MaxLength = 0;
             this.formResultText.Multiline = true;
             this.formResultText.Name = "formResultText";
             this.formResultText.ReadOnly = true;
             this.formResultText.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.formResultText.Size = new System.Drawing.Size(314, 486);
+            this.formResultText.Size = new System.Drawing.Size(538, 486);
             this.formResultText.TabIndex = 2;
             this.formResultText.WordWrap = false;
             // 
@@ -403,7 +403,7 @@
             this.formSourceText.Multiline = true;
             this.formSourceText.Name = "formSourceText";
             this.formSourceText.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.formSourceText.Size = new System.Drawing.Size(314, 486);
+            this.formSourceText.Size = new System.Drawing.Size(538, 486);
             this.formSourceText.TabIndex = 0;
             this.formSourceText.WordWrap = false;
             // 
@@ -417,7 +417,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1056, 644);
+            this.ClientSize = new System.Drawing.Size(1517, 644);
             this.Controls.Add(this.formGroup);
             this.Name = "formWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
