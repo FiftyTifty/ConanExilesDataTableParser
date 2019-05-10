@@ -81,7 +81,7 @@ namespace ConanExilesDataTableParser
 
         public class jsonCERecipe
         {
-            public int RowName { get; set; }
+            public string RowName { get; set; }
             public string RecipeName { get; set; }
             public string ShortDesc { get; set; }
             public string RecipeType { get; set; }
